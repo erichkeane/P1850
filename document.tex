@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage[colorlinks, allcolors=blue]{hyperref}
+\usepackage[margin=0.5in, tmargin=0.3in, bmargin=0.3in]{geometry}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\erichemail}{erich.keane@intel.com}
+\newcommand{\michalemail}{griwes@griwes.info}
+\newcommand{\adamemail}{adam@recursive.engineer}
+\newcommand{\email}[1]{\href{mailto:#1}{#1}}
+\newcommand{\papernum}{D1850R0}
+
+\title{\papernum: static noexcept(title TBD)}
+\date{}
+\author{}
+
+
+\begin{document}
+
+\begin{flushright}
+  \begin{tabular}{rr}
+  Document:   &\papernum\\
+  Date:       &\today\\
+  Project:    &Programming Language C++\\
+              &SG17: Evolution Incubator\\
+              &EWG: Evolution Working Group\\
+  Reply-to:   &Erich Keane \textless\email{\erichemail}\textgreater\\
+              &Michał Dominiak \textless\email{\michalemail}\textgreater\\
+              &Adam Martin \textless\email{\adamemail}\textgreater\\
+  \end{tabular}
+\end{flushright}
+
+{\let\newpage\relax\maketitle} 
+\maketitle\vspace{-1cm}
+
+\section{Introdution}
+\section{Motivation}
+\section{Acknowledgements}
+\section{References}
+
+\end{document}
